@@ -5,13 +5,13 @@
 
 ## Lab 1
 
-```bash
+```bash=
 brew install git
 ```
 
 ## Lab 2
 
-```bash
+```bash=
 git init
 
 git config --global-user-name "zxcj04"
@@ -33,13 +33,13 @@ git push
 ![](https://i.imgur.com/sFcyZre.png)
 
 
-```bash
+```bash=
 git pull
 ```
 
 ## Lab 3
 
-```bash
+```bash=
 git branch newfile
 
 git checkout newfile
@@ -51,7 +51,7 @@ git push
 
 ![](https://i.imgur.com/MCLk9Nq.png)
 
-```bash
+```bash=
 
 git push --set-upstream origin newfile
 
@@ -75,7 +75,7 @@ git merge newfile
 ![](https://i.imgur.com/FkOiG2H.png)
 
 
-```bash
+```bash=
 (changing the right thing)
 
 git add .
@@ -91,7 +91,7 @@ git push
 
 ![](https://i.imgur.com/3wXyjb0.png)
 
-```bash
+```bash=
 gitk --all
 ```
 
@@ -99,7 +99,18 @@ gitk --all
 
 ## Lab4
 
-```bash
+```bash=
 
+(add cal.py and testCalc.py)
+(add .travis.yml)
+
+git add .
+git commit "travis"
+git push
 
 ```
+
+
+![](https://i.imgur.com/AllmPgq.png)
+
+## Lab4-
