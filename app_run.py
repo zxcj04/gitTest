@@ -1,6 +1,6 @@
 from flask import *
 from datetime import datetime
-import Calculator as calculator
+import cal as calculator
 app = Flask(__name__)
 
 
