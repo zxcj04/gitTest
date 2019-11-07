@@ -21,4 +21,13 @@ script: true
   
  # Another command/method to run tests
 script: 
-  - python testCal.py
+  - python TestCalculator.py
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
+  app: git-test-heroku
+  on:
+    repo: zxcj04/gitTest
+    
