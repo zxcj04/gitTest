@@ -1,4 +1,5 @@
 # Git test
+[![Build Status](https://travis-ci.com/zxcj04/gitTest.svg?branch=master)](https://travis-ci.com/zxcj04/gitTest)
 
 [TOC]
 
@@ -26,8 +27,14 @@ git push
 
 (adding README on site)
 
-git pull
+git push
+```
 
+![](https://i.imgur.com/sFcyZre.png)
+
+
+```bash
+git pull
 ```
 
 ## Lab 3
@@ -84,6 +91,11 @@ git push
 
 ![](https://i.imgur.com/3wXyjb0.png)
 
+```bash
+gitk --all
+```
+
+![](https://i.imgur.com/WSEGQrK.png)
 
 ## Lab4
 
