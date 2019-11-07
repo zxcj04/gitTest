@@ -21,7 +21,7 @@ script: true
   
  # Another command/method to run tests
 script: 
-  - python TestCalculator.py
+  - python testCal.py
 
 deploy:
   provider: heroku
