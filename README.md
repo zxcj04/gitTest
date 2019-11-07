@@ -61,8 +61,12 @@ git checkout master
 git add a.py
 git commit "making conflicts on master branch"
 git push
+
+git merge newfile
 ```
-![](https://i.imgur.com/Tub0XtZ.png)
+
+![](https://i.imgur.com/FkOiG2H.png)
+
 
 ```bash
 (changing the right thing)
@@ -74,7 +78,8 @@ git commit -m "fix conflict"
 git push
 ```
 
-(adding issue on site)
+(adding issue on github site)
+
 (comment and close it)
 
 ![](https://i.imgur.com/3wXyjb0.png)
