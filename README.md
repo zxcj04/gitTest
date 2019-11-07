@@ -113,4 +113,25 @@ git push
 
 ![](https://i.imgur.com/AllmPgq.png)
 
-## Lab4-
+## Lab4-PLUS
+
+(add deploy to .travis.yml)
+(get api key to travis variable)
+
+(add Procfile file)
+
+```bash=
+git add .
+git commit -m "heroku"
+git push .
+```
+
+![](https://i.imgur.com/5iHOwCN.png)
+
+(open APP)
+
+![](https://i.imgur.com/emSytk8.png)
+
+(test add api)
+
+![](https://i.imgur.com/o19tosh.png)
