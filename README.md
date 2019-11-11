@@ -45,7 +45,7 @@ git branch newfile
 git checkout newfile
 
 git add .
-git commit "new file"
+git commit -m "new file"
 git push
 ```
 
@@ -58,7 +58,7 @@ git push --set-upstream origin newfile
 (change a.py)
 
 git add a.py
-git commit "making conflicts"
+git commit -m "making conflicts"
 git push
 
 git checkout master
@@ -66,7 +66,7 @@ git checkout master
 (change a.py)
 
 git add a.py
-git commit "making conflicts on master branch"
+git commit -m "making conflicts on master branch"
 git push
 
 git merge newfile
@@ -97,7 +97,7 @@ gitk --all
 
 ![](https://i.imgur.com/WSEGQrK.png)
 
-## Lab4
+## Lab 4
 
 ```bash=
 
@@ -105,7 +105,7 @@ gitk --all
 (add .travis.yml)
 
 git add .
-git commit "travis"
+git commit -m "travis"
 git push
 
 ```
@@ -113,7 +113,7 @@ git push
 
 ![](https://i.imgur.com/AllmPgq.png)
 
-## Lab4-PLUS
+## Lab 4_PLUS
 
 (add deploy to .travis.yml)
 (get api key to travis variable)
