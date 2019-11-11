@@ -16,7 +16,7 @@ def add():
     b = num(request.args.get('b'))
     return str(calculator.add(a,b))
 
-@app.route('/sub')
+@app.route('/minus')
 def minus():
     a = num(request.args.get('a'))
     b = num(request.args.get('b'))
